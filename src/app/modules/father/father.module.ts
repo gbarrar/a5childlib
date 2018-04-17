@@ -4,6 +4,7 @@ import { CommonModule } from '@angular/common';
 import { FatherComponent } from './father.component';
 import { ChildOneComponent } from './childOne/childOne.component';
 import { FatherRoutingModule } from './father.routhing.module';
+import { ChildTwoComponent } from './childTwo/childTwo.component';
 
 @NgModule({
   imports: [
@@ -13,7 +14,8 @@ import { FatherRoutingModule } from './father.routhing.module';
   ],
   declarations: [
     FatherComponent,
-    ChildOneComponent
+    ChildOneComponent,
+    ChildTwoComponent
   ],
   exports: [
     FatherComponent,
